@@ -90,7 +90,7 @@
         <property name="name" class="String">Prompt設定</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-            <property name="value" class="String">悪くはないが、最初の学習に'"時間がかかかるため、何らかの補助資料が必要。やっぱそこそこに良いこともない。とも言えない。</property>
+            <property name="value" class="String">感動した！ただ、腹が立った。悲しくもある。</property>
           </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">gemini.prompt</property>
@@ -250,7 +250,7 @@
               <property name="dataConverters" class="DataConverters">
                 <element class="ReplacePattern">
                   <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.PartialInputMatchingPatternValueStringExpression">
-                    <property name="value" class="String">(.*)\\n.*</property>
+                    <property name="value" class="String">(.*?)\\n.*</property>
                   </property>
                 </element>
               </property>
